@@ -16,7 +16,6 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=8.0",
-        "seaport/database": "1.0"
+        "php": ">=8.0"
     }
 }
