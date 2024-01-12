@@ -1,0 +1,21 @@
+{
+    "name": "seaport/database",
+    "description": "sea-port database list",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Seaport\\Database\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lalit",
+            "email": "lalitrana396@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0"
+    }
+}
