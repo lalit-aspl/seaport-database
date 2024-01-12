@@ -71,6 +71,6 @@ You can submit feature requests by [creating a new issue](link-to-issue-tracker)
 
 Thank you for contributing to the improvement of our project!
 
-For urgent matters or inquiries, you can also reach out to us directly via email at lalitaquasoft@gmail.com.
+For urgent matters or inquiries, you can also reach out to us directly via email at lalitaquasoft@gmail.com. 
 
 
