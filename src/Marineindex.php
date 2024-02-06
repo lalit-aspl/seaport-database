@@ -4,7 +4,7 @@ namespace Seaport\Database;
 
 class Marineindex
 {
-    const JSON_FILE_PATH = __DIR__ . '/ports_json.json';
+    const JSON_FILE_PATH = __DIR__ . '/new_sea_port.json';
 
     public static function database(): array
     {
@@ -24,7 +24,7 @@ class Marineindex
     public static function search_by_country_code(string $en): array
     {
         $data = self::database();
-        return array_filter($data, fn($port) => $port["country"] === $en);
+        return array_filter($data, fn($port) => $port["COUNTRY_CODE"] === $en);
     } 
 
     public static function search_by_country_city(string $en, string $name): array
