@@ -24,8 +24,8 @@ $list = Marineindex::index();
 // To get data by country
 $list = Marineindex::search_by_country_code('IN');
 
-// To get data by country and city
-$list = Marineindex::search_by_country_city('IN', 'Bangalore');
+
+
  
 
 
